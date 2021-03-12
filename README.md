@@ -89,9 +89,9 @@ From the analysis, we were able to get the number of votes in total, by county a
 
 2.	There are three counties participated in this election: 
 
--	Jefferson: received 10.5% of the vote and 38,855 votes.
--	Denver: received 82.8% of the vote and 306,055 votes.
--	Arapahoe: received 6.7% of the vote and 24,807 votes.
+    -	Jefferson: received 10.5% of the vote and 38,855 votes.
+    -	Denver: received 82.8% of the vote and 306,055 votes.
+    -	Arapahoe: received 6.7% of the vote and 24,807 votes.
  
     ![ss15](https://user-images.githubusercontent.com/79289806/110873861-a46e4380-82a0-11eb-93b3-81fa15464d43.png)
     
@@ -102,9 +102,9 @@ turnout.
 
 4.	There are three candidates participated in this election:
 
--	Charles Casper Stockham: received 23.0% of the vote and 85,213 votes.
--	Diana DeGette: received 73.8% of the vote and 272,892 votes
--	Raymon Anthony Doane: received 3.1% of the vote and 11,606 votes
+    -	Charles Casper Stockham: received 23.0% of the vote and 85,213 votes.
+    -	Diana DeGette: received 73.8% of the vote and 272,892 votes
+    -	Raymon Anthony Doane: received 3.1% of the vote and 11,606 votes
 
     ![ss17](https://user-images.githubusercontent.com/79289806/110873863-a46e4380-82a0-11eb-9762-1df332c19595.png)
 
@@ -124,11 +124,11 @@ Here are some examples:
 
 1.	Election of team leader.
 
-After collect the data for all the candidates, create a CSV file to store all the information. In this data we should have the name of the candidate, voted or not. We could use this script, read in the CSV file, loop through all rows in the data file, create a list of the name of the candidates, and the count of vote for each candidate. We could also use the script to give us the result of the elected team leader.
+    After collect the data for all the candidates, create a CSV file to store all the information. In this data we should have the name of the candidate, voted or not. We could     use this script, read in the CSV file, loop through all rows in the data file, create a list of the name of the candidates, and the count of vote for each candidate. We         could also use the script to give us the result of the elected team leader.
 
 2.	Election of managers.
 
-This script can also be used to analyze the results of the election of managers from different divisions of an organization at the same time. When collecting the data, we could have not only the candidate name, candidate vote, but also the division they applied for. Using the script, we could get the list of the divisions, the list of candidates, and cumulative number of the vote counts. Within each division, compare the count across all the candidates, select the final winner as the manger of the division. 
+    This script can also be used to analyze the results of the election of managers from different divisions of an organization at the same time. When collecting the data, we       could have not only the candidate name, candidate vote, but also the division they applied for. Using the script, we could get the list of the divisions, the list of             candidates, and cumulative number of the vote counts. Within each division, compare the count across all the candidates, select the final winner as the manger of the             division. 
 
  
 
