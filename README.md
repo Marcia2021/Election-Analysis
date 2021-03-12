@@ -74,7 +74,7 @@ In this analysis, we used Python as the programming language, Visual Studio Code
     ![ss12](https://user-images.githubusercontent.com/79289806/110873858-a3d5ad00-82a0-11eb-9214-c420a285b9a4.png)
 
 
-    (3)	    Similar as the county, calculated the percentage of votes for each candidate. Compare the count and percentage of votes across all the candidates, select the winner candidate and wrote to the text file.
+    (3)	    Similar as the county section, calculated the percentage of votes for each candidate. Compare the count and percentage of votes across all the candidates, select the winner candidate and wrote to the text file.
 
     ![ss13](https://user-images.githubusercontent.com/79289806/110873859-a3d5ad00-82a0-11eb-87ef-2be60ad13cc0.png)
 
