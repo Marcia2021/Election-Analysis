@@ -44,20 +44,20 @@ In this analysis, we used Python as the programming language, Visual Studio Code
 
 6.	Used For loop to loop through the rows in the file, created the following variables:
 
-   (1)	Iterate through the rows by adding 1 to total_votes. When the iteration complete get the number of total votes across all the records. 
+    (1) 	Iterate through the rows by adding 1 to total_votes. When the iteration complete get the number of total votes across all the records. 
 
      ![ss6](https://user-images.githubusercontent.com/79289806/110873871-a506da00-82a0-11eb-9fbc-bb96c33a4fd5.png)
 
-   (2)	When loop through the rows in the file, each row was read in from the CSV file as a list with 3 elements. Use the associated position number in the list to get the candidate name and county name. 
+    (2) 	When loop through the rows in the file, each row was read in from the CSV file as a list with 3 elements. Use the associated position number in the list to get the candidate name and county name. 
 
     ![ss7](https://user-images.githubusercontent.com/79289806/110873872-a506da00-82a0-11eb-8581-7d247d06e1b1.png)
 
-   (3)	Used conditional statement to create a unique list of candidate name, and a dictionary with the candidate’s name as the key, the number of votes for each candidate as the value. 
+    (3)    Used conditional statement to create a unique list of candidate name, and a dictionary with the candidate’s name as the key, the number of votes for each candidate as the value. 
 
     ![ss8](https://user-images.githubusercontent.com/79289806/110873873-a506da00-82a0-11eb-91d6-f363271d6214.png)
 
 
-   (4)	Similar as the candidate section, used conditional statement to create a unique list of the county, and a dictionary with county’s name as the key, the number of votes for each county as the value.
+     (4)	Similar as the candidate section, used conditional statement to create a unique list of the county, and a dictionary with county’s name as the key, the number of votes for each county as the value.
 
     ![ss9](https://user-images.githubusercontent.com/79289806/110873855-a3d5ad00-82a0-11eb-81c8-8c72bcf6c560.png)
 
@@ -65,16 +65,16 @@ In this analysis, we used Python as the programming language, Visual Studio Code
 
     ![ss10](https://user-images.githubusercontent.com/79289806/110873856-a3d5ad00-82a0-11eb-99b8-64657426e6a9.png)
 
-   (1)	Wrote the total number of votes to the text file.
+     (1)    Wrote the total number of votes to the text file.
 
     ![ss11](https://user-images.githubusercontent.com/79289806/110873857-a3d5ad00-82a0-11eb-8ce8-c9e9fa72bfb7.png)
 
-   (2)	Based on the number of total votes and the votes for each county, calculated the percentage of vote for each county. Then compare the number of votes across all the counties, select the county with the largest number of votes, wrote to the text file.
+    (2)	    Based on the number of total votes and the votes for each county, calculated the percentage of vote for each county. Then compare the number of votes across all the counties, select the county with the largest number of votes, wrote to the text file.
 
     ![ss12](https://user-images.githubusercontent.com/79289806/110873858-a3d5ad00-82a0-11eb-9214-c420a285b9a4.png)
 
 
-   (3)	Similar as the county, calculated the percentage of votes for each candidate. Compare the count and percentage of votes across all the candidates, select the winner candidate and wrote to the text file.
+    (3)	    Similar as the county, calculated the percentage of votes for each candidate. Compare the count and percentage of votes across all the candidates, select the winner candidate and wrote to the text file.
 
     ![ss13](https://user-images.githubusercontent.com/79289806/110873859-a3d5ad00-82a0-11eb-87ef-2be60ad13cc0.png)
 
